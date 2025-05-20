@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,24 +14,46 @@
    <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
 
-<header class="header">
-   
-   <section class="flex">
+   <header class="header">
 
-      <a href="home.html" class="logo">College Study</a>
+      <section class="flex">
 
-      <form action="search.html" method="post" class="search-form">
-         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
-         <button type="submit" class="fas fa-search"></button>
-      </form>
+         <a href="home.html" class="logo">College Study</a>
 
-      <div class="icons">
-         <div id="menu-btn" class="fas fa-bars"></div>
-         <div id="search-btn" class="fas fa-search"></div>
-         <div id="user-btn" class="fas fa-user"></div>
-         <div id="toggle-btn" class="fas fa-sun"></div>
+         <form action="search.html" method="post" class="search-form">
+            <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+            <button type="submit" class="fas fa-search"></button>
+         </form>
+
+         <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="user-btn" class="fas fa-user"></div>
+            <div id="toggle-btn" class="fas fa-sun"></div>
+         </div>
+
+         <div class="profile">
+            <img src="images/pic-1.jpg" class="image" alt="">
+            <h3 class="name">Priyal kumar</h3>
+            <p class="role">student</p>
+            <a href="profile.html" class="btn">view profile</a>
+            <div class="flex-btn">
+               <a href="login.html" class="option-btn">login</a>
+               <a href="register.html" class="option-btn">register</a>
+            </div>
+         </div>
+
+      </section>
+
+   </header>
+
+   <div class="side-bar">
+
+      <div id="close-btn">
+         <i class="fas fa-times"></i>
       </div>
 
       <div class="profile">
@@ -38,40 +61,19 @@
          <h3 class="name">Priyal kumar</h3>
          <p class="role">student</p>
          <a href="profile.html" class="btn">view profile</a>
-         <div class="flex-btn">
-            <a href="login.html" class="option-btn">login</a>
-            <a href="register.html" class="option-btn">register</a>
-         </div>
       </div>
 
-   </section>
+      <nav class="navbar">
+         <a href="home.html"><i class="fas fa-home"></i><span>home</span></a>
+         <a href="about.html"><i class="fas fa-question"></i><span>about</span></a>
+         <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>courses</span></a>
+         <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>teachers</span></a>
+         <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
+      </nav>
 
-</header>   
-
-<div class="side-bar">
-
-   <div id="close-btn">
-      <i class="fas fa-times"></i>
    </div>
 
-   <div class="profile">
-      <img src="images/pic-1.jpg" class="image" alt="">
-      <h3 class="name">Priyal kumar</h3>
-      <p class="role">student</p>
-      <a href="profile.html" class="btn">view profile</a>
-   </div>
-
-   <nav class="navbar">
-      <a href="home.html"><i class="fas fa-home"></i><span>home</span></a>
-      <a href="about.html"><i class="fas fa-question"></i><span>about</span></a>
-      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>courses</span></a>
-      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>teachers</span></a>
-      <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
-   </nav>
-
-</div>
-
-<!-- <section class="home-grid">
+   <!-- <section class="home-grid">
 
    <h1 class="heading">quick options</h1>
 
@@ -125,115 +127,128 @@
 
 
 
-<section class="courses">
+   <section class="courses">
 
-   <h1 class="heading">Our College Notes</h1>
+      <h1 class="heading">College Study - Notes</h1>
 
-   <div class="box-container">
+      <div class="box-container">
 
-      <div class="box">
-         <div class="tutor">
-            <img src="images/pic-2.jpg" alt="">
-            <div class="info">
-               <h3>john deo</h3>
-               <span>21-10-2022</span>
+         <div class="box">
+            <div class="tutor">
+               <img src="images/pic-6.jpg" alt="">
+               <div class="info">
+                  <h3>Priyal kumar</h3>
+                  <span>01-06-2025</span>
+               </div>
             </div>
-         </div>
-         <div class="thumb">
-            <img src="images/thumb-1.png" alt="">
-            <span>10 videos</span>
-         </div>
-         <h3 class="title">complete HTML tutorial</h3>
-         <a href="playlist.html" class="inline-btn">view playlist</a>
-      </div>
-
-      <div class="box">
-         <div class="tutor">
-            <img src="images/pic-3.jpg" alt="">
-            <div class="info">
-               <h3>john deo</h3>
-               <span>21-10-2022</span>
+            <div class="thumb">
+               <a href="All1stSemSubjects.html" target="_blank">
+                  <img src="images/thumb-1stSem.png" alt=""> </a>
+               <span>6 Subjects</span>
             </div>
+            <h3 class="title">Complete 1st Semester Notes</h3>
+            <a href="https://drive.google.com/uc?export=download&id=1fZ_EtsAe94yc9-SM20b6P8-j_9pjdOkN"
+               class="inline-btn">Download Syllabus</a>
          </div>
-         <div class="thumb">
-            <img src="images/thumb-2.png" alt="">
-            <span>10 videos</span>
-         </div>
-         <h3 class="title">complete CSS tutorial</h3>
-         <a href="playlist.html" class="inline-btn">view playlist</a>
-      </div>
 
-      <div class="box">
-         <div class="tutor">
-            <img src="images/pic-4.jpg" alt="">
-            <div class="info">
-               <h3>john deo</h3>
-               <span>21-10-2022</span>
+         <div class="box">
+            <div class="tutor">
+               <img src="images/pic-6.jpg" alt="">
+               <div class="info">
+                  <h3>Priyal kumar</h3>
+                  <span>01-06-2025</span>
+               </div>
             </div>
-         </div>
-         <div class="thumb">
-            <img src="images/thumb-3.png" alt="">
-            <span>10 videos</span>
-         </div>
-         <h3 class="title">complete JS tutorial</h3>
-         <a href="playlist.html" class="inline-btn">view playlist</a>
-      </div>
-
-      <div class="box">
-         <div class="tutor">
-            <img src="images/pic-5.jpg" alt="">
-            <div class="info">
-               <h3>john deo</h3>
-               <span>21-10-2022</span>
+            <div class="thumb">
+               <a href="All2ndSemSubjects.html" target="_blank">
+                  <img src="images/thumb-2ndSem.png" alt=""> </a>
+               <span>6 Subjects</span>
             </div>
+            <h3 class="title">Complete 2nd Semester Notes</h3>
+            <a href="https://drive.google.com/uc?export=download&id=1TGhKLkREEFgTGkDLhn5m9pKWJo9soALy"
+               class="inline-btn" download> Download Syllabus </a>
          </div>
-         <div class="thumb">
-            <img src="images/thumb-4.png" alt="">
-            <span>10 videos</span>
-         </div>
-         <h3 class="title">complete Boostrap tutorial</h3>
-         <a href="playlist.html" class="inline-btn">view playlist</a>
-      </div>
 
-      <div class="box">
-         <div class="tutor">
-            <img src="images/pic-6.jpg" alt="">
-            <div class="info">
-               <h3>john deo</h3>
-               <span>21-10-2022</span>
+
+         <div class="box">
+            <div class="tutor">
+               <img src="images/pic-6.jpg" alt="">
+               <div class="info">
+                  <h3>Priyal kumar</h3>
+                  <span>01-06-2025</span>
+               </div>
             </div>
-         </div>
-         <div class="thumb">
-            <img src="images/thumb-5.png" alt="">
-            <span>10 videos</span>
-         </div>
-         <h3 class="title">complete JQuery tutorial</h3>
-         <a href="playlist.html" class="inline-btn">view playlist</a>
-      </div>
-
-      <div class="box">
-         <div class="tutor">
-            <img src="images/pic-7.jpg" alt="">
-            <div class="info">
-               <h3>john deo</h3>
-               <span>21-10-2022</span>
+            <div class="thumb">
+               <a href="All3rdSemSubjects.html" target="_blank">
+                  <img src="images/thumb-3rdSem.png" alt=""> </a>
+               <span>6 Subjects</span>
             </div>
+            <h3 class="title">complete 3rd Semester Notes </h3>
+            <a href="https://drive.google.com/uc?export=download&id=1mpACtmx9BF_gInlrOa8U-8ykmGHumQRk"
+               class="inline-btn" download> Download Syllabus
+            </a>
          </div>
-         <div class="thumb">
-            <img src="images/thumb-6.png" alt="">
-            <span>10 videos</span>
+
+
+
+         <div class="box">
+            <div class="tutor">
+               <img src="images/pic-6.jpg" alt="">
+               <div class="info">
+                  <h3>Priyal kumar</h3>
+                  <span>01-06-2025</span>
+               </div>
+            </div>
+            <div class="thumb">
+               <a href="All4thSemSubjects.html" target="_blank">
+                  <img src="images/thumb-4thSem.png" alt=""> </a>
+               <span>6 Subjects</span>
+            </div>
+            <h3 class="title">Complete 4th Semester Notes</h3>
+            <a href="https://drive.google.com/uc?export=download&id=1Pj0S0G7EnEaFwQfBPndyIE_v37Z_P4pi"
+               class="inline-btn">Download Syllabus</a>
          </div>
-         <h3 class="title">complete SASS tutorial</h3>
-         <a href="playlist.html" class="inline-btn">view playlist</a>
+
+         <div class="box">
+            <div class="tutor">
+               <img src="images/pic-6.jpg" alt="">
+               <div class="info">
+                  <h3>Priyal kumar</h3>
+                  <span>01-06-2025</span>
+               </div>
+            </div>
+            <div class="thumb">
+               <a href="All4thSemSubject.html" target="_blank">
+                  <img src="images/thumb-5thSem.png" alt=""> </a>
+               <span>6 Subjects</span>
+            </div>
+            <h3 class="title">Complete 5th Semester Notes</h3>
+            <a href="" class="inline-btn">Coming Soon ...</a>
+         </div>
+
+         <div class="box">
+            <div class="tutor">
+               <img src="images/pic-6.jpg" alt="">
+               <div class="info">
+                  <h3>Priyal kumar</h3>
+                  <span>01-06-2025</span>
+               </div>
+            </div>
+            <div class="thumb">
+               <a href="All4thSemSubject.html" target="_blank">
+                  <img src="images/thumb-6thSem.png" alt=""> </a>
+               <span>6 Subjects</span>
+            </div>
+            <h3 class="title">Complete 6th Semester Notes</h3>
+            <a href="" class="inline-btn">Coming Soon ...</a>
+            <!-- enter google drive link for attaching 6th sem syllabus  -->
+         </div>
+
+         <div class="more-btn">
+            <a href="courses.html" class="inline-option-btn">view all courses</a>
+         </div>
       </div>
-
-   </div>
-
-   <div class="more-btn">
-      <a href="courses.html" class="inline-option-btn">view all courses</a>
-   </div>
-
-</section>
+   </section>
 
 
 
@@ -249,15 +264,16 @@
 
 
 
-<footer class="footer">
+   <footer class="footer">
 
-   &copy; copyright @ 2025 by <span>College Study</span> | all rights reserved!
+      &copy; copyright @ 2025 by <span>College Study</span> | all rights reserved!
 
-</footer>
+   </footer>
 
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
+   <!-- custom js file link  -->
+   <script src="js/script.js"></script>
 
-   
+
 </body>
+
 </html>
