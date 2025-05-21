@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -13,24 +14,46 @@
    <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
 
-<header class="header">
-   
-   <section class="flex">
+   <header class="header">
 
-      <a href="index.html" class="logo">College Study</a>
+      <section class="flex">
 
-      <form action="search.html" method="post" class="search-form">
-         <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
-         <button type="submit" class="fas fa-search"></button>
-      </form>
+         <a href="index.html" class="logo">College Study</a>
 
-      <div class="icons">
-         <div id="menu-btn" class="fas fa-bars"></div>
-         <div id="search-btn" class="fas fa-search"></div>
-         <div id="user-btn" class="fas fa-user"></div>
-         <div id="toggle-btn" class="fas fa-sun"></div>
+         <form action="search.html" method="post" class="search-form">
+            <input type="text" name="search_box" required placeholder="search courses..." maxlength="100">
+            <button type="submit" class="fas fa-search"></button>
+         </form>
+
+         <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="user-btn" class="fas fa-user"></div>
+            <div id="toggle-btn" class="fas fa-sun"></div>
+         </div>
+
+         <div class="profile">
+            <img src="images/pic-1.jpg" class="image" alt="">
+            <h3 class="name">Priyal kumar</h3>
+            <p class="role">student</p>
+            <a href="profile.html" class="btn">view profile</a>
+            <div class="flex-btn">
+               <a href="login.html" class="option-btn">login</a>
+               <a href="register.html" class="option-btn">register</a>
+            </div>
+         </div>
+
+      </section>
+
+   </header>
+
+   <div class="side-bar">
+
+      <div id="close-btn">
+         <i class="fas fa-times"></i>
       </div>
 
       <div class="profile">
@@ -38,204 +61,220 @@
          <h3 class="name">Priyal kumar</h3>
          <p class="role">student</p>
          <a href="profile.html" class="btn">view profile</a>
-         <div class="flex-btn">
-            <a href="login.html" class="option-btn">login</a>
-            <a href="register.html" class="option-btn">register</a>
+      </div>
+
+      <nav class="navbar">
+         <a href="index.html"><i class="fas fa-home"></i><span>home</span></a>
+         <a href="about.html"><i class="fas fa-question"></i><span>about</span></a>
+         <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>courses</span></a>
+         <!-- <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>teachers</span></a> -->
+         <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
+      </nav>
+
+   </div>
+
+   <section class="about">
+
+      <div class="row">
+
+         <div class="image">
+            <img src="images/about-img.svg" alt="">
          </div>
+
+         <div class="content">
+            <h3>📚 What is College Study ?</h3>
+            <p>College Study is a platform created by Priyal Kumar, a CSE'27 student at HBTU Kanpur, with the aim of
+               helping juniors completely free of cost. The platform provides notes, assignments, PDF files, and all
+               other necessary resources and tips to support students in their academic journey. Priyal Kumar has
+               mentored over 1000+ juniors so far. The ultimate goal of College Study is to bridge the gap between
+               seniors and juniors by offering proper guidance and creating an environment where juniors feel
+               comfortable asking questions without any fear or hesitation.
+               <br>
+               <b>Thank you, </b> <br>
+               <b>Your Mentor – Priyal Kumar</b>
+            </p>
+
+         </div>
+
+      </div>
+
+      <div class="content">
+
+         <a href="courses.html" class="inline-btn">Checkout Our Notes</a>
+      </div>
+
+      </div>
+
+      <div class="box-container">
+
+         <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <div>
+               <h3>120+</h3>
+               <p>BTech Notes (HBTU)</p>
+            </div>
+         </div>
+
+         <div class="box">
+            <i class="fas fa-user-graduate"></i>
+            <div>
+               <h3>1500+</h3>
+               <p>Students Mentored </p>
+            </div>
+         </div>
+
+         <div class="box">
+            <i class="fas fa-chalkboard-user"></i>
+            <div>
+               <h3>5k+</h3>
+               <p>Website Visits</p>
+            </div>
+         </div>
+
+         <div class="box">
+            <i class="fas fa-briefcase"></i>
+            <div>
+               <h3>99.99%</h3>
+               <p>Positive Feedback</p>
+            </div>
+         </div>
+
       </div>
 
    </section>
 
-</header>   
+   <section class="reviews">
 
-<div class="side-bar">
+      <h1 class="heading">student's reviews</h1>
 
-   <div id="close-btn">
-      <i class="fas fa-times"></i>
-   </div>
+      <div class="box-container">
 
-   <div class="profile">
-      <img src="images/pic-1.jpg" class="image" alt="">
-      <h3 class="name">Priyal kumar</h3>
-      <p class="role">student</p>
-      <a href="profile.html" class="btn">view profile</a>
-   </div>
-
-   <nav class="navbar">
-      <a href="index.html"><i class="fas fa-home"></i><span>home</span></a>
-      <a href="about.html"><i class="fas fa-question"></i><span>about</span></a>
-      <a href="courses.html"><i class="fas fa-graduation-cap"></i><span>courses</span></a>
-      <a href="teachers.html"><i class="fas fa-chalkboard-user"></i><span>teachers</span></a>
-      <a href="contact.html"><i class="fas fa-headset"></i><span>contact us</span></a>
-   </nav>
-
-</div>
-
-<section class="about">
-
-   <div class="row">
-
-      <div class="image">
-         <img src="images/about-img.svg" alt="">
-      </div>
-
-      <div class="content">
-         <h3>why choose us?</h3>
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut dolorum quasi illo? Distinctio expedita commodi, nemo a quam error repellendus sint, fugiat quis numquam eum eveniet sequi aspernatur quaerat tenetur.</p>
-         <a href="courses.html" class="inline-btn">our courses</a>
-      </div>
-
-   </div>
-
-   <div class="box-container">
-
-      <div class="box">
-         <i class="fas fa-graduation-cap"></i>
-         <div>
-            <h3>+10k</h3>
-            <p>online courses</p>
-         </div>
-      </div>
-
-      <div class="box">
-         <i class="fas fa-user-graduate"></i>
-         <div>
-            <h3>+40k</h3>
-            <p>brilliant students</p>
-         </div>
-      </div>
-
-      <div class="box">
-         <i class="fas fa-chalkboard-user"></i>
-         <div>
-            <h3>+2k</h3>
-            <p>expert tutors</p>
-         </div>
-      </div>
-
-      <div class="box">
-         <i class="fas fa-briefcase"></i>
-         <div>
-            <h3>99.99%</h3>
-            <p>job placement</p>
-         </div>
-      </div>
-
-   </div>
-
-</section> 
-
-<section class="reviews">
-
-   <h1 class="heading">student's reviews</h1>
-
-   <div class="box-container">
-
-      <div class="box">
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, suscipit a. Quibusdam, dignissimos consectetur. Sed ullam iusto eveniet qui aut quibusdam vero voluptate libero facilis fuga. Eligendi eaque molestiae modi?</p>
-         <div class="student">
-            <img src="images/pic-2.jpg" alt="">
-            <div>
-               <h3>john deo</h3>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
+         <div class="box">
+            <p>I came across College Study just before my 3rd semester exams, and I cannot express how grateful I am.
+               The notes provided are crisp, to the point, and exactly what we need before exams. Even the assignments
+               and project files are neatly categorized and easy to access. Priyal sir has done an incredible job by
+               understanding the actual needs of students. It's not just a resource hub—it feels like a mentor guiding
+               you at every step.</p>
+            <div class="student">
+               <img src="images/pic-2.jpg" alt="">
+               <div>
+                  <h3>Avarna Mishra</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
                </div>
             </div>
          </div>
-      </div>
 
-      <div class="box">
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, suscipit a. Quibusdam, dignissimos consectetur. Sed ullam iusto eveniet qui aut quibusdam vero voluptate libero facilis fuga. Eligendi eaque molestiae modi?</p>
-         <div class="student">
-            <img src="images/pic-3.jpg" alt="">
-            <div>
-               <h3>john deo</h3>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
+         <div class="box">
+            <p>As a student navigating through the first few semesters of engineering, I often felt lost—especially when
+               it came to preparing assignments and understanding what kind of questions are important. That’s when I
+               found College Study. The content curated by Priyal sir is extremely helpful and 100% relevant. What’s
+               more commendable is that everything is provided free of cost, which shows his genuine intention to help
+               juniors.</p>
+            <div class="student">
+               <img src="images/pic-5.jpg" alt="">
+               <div>
+                  <h3>Jaya </h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
                </div>
             </div>
          </div>
-      </div>
 
-      <div class="box">
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, suscipit a. Quibusdam, dignissimos consectetur. Sed ullam iusto eveniet qui aut quibusdam vero voluptate libero facilis fuga. Eligendi eaque molestiae modi?</p>
-         <div class="student">
-            <img src="images/pic-4.jpg" alt="">
-            <div>
-               <h3>john deo</h3>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
+         <div class="box">
+            <p>College Study has truly filled the gap between seniors and juniors. I used to hesitate in reaching out
+               for help, but this platform made it easier for me to access all necessary notes, assignments, and even
+               project references without asking anyone directly. It feels like someone has already walked the path and
+               left clear footprints for us to follow. Thank you so much Priyal sir for building this support system.
+            </p>
+            <div class="student">
+               <img src="images/pic-7.jpg" alt="">
+               <div>
+                  <h3>Vaishnavi Patel</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
                </div>
             </div>
          </div>
-      </div>
 
-      <div class="box">
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, suscipit a. Quibusdam, dignissimos consectetur. Sed ullam iusto eveniet qui aut quibusdam vero voluptate libero facilis fuga. Eligendi eaque molestiae modi?</p>
-         <div class="student">
-            <img src="images/pic-5.jpg" alt="">
-            <div>
-               <h3>john deo</h3>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
+         <div class="box">
+            <p>There are a lot of websites that provide study material, but none of them are this personalized and
+               accurate for our college curriculum. College Study by Priyal sir has been my go-to for almost
+               everything—be it notes, assignment questions, or even guidance on internal file submissions. I’ve shared
+               this with many classmates and we all feel much more confident now. Truly a thoughtful initiative.</p>
+            <div class="student">
+               <img src="images/pic-6.jpg" alt="">
+               <div>
+                  <h3>Akhil</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
                </div>
             </div>
          </div>
-      </div>
 
-      <div class="box">
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, suscipit a. Quibusdam, dignissimos consectetur. Sed ullam iusto eveniet qui aut quibusdam vero voluptate libero facilis fuga. Eligendi eaque molestiae modi?</p>
-         <div class="student">
-            <img src="images/pic-6.jpg" alt="">
-            <div>
-               <h3>john deo</h3>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
+         <div class="box">
+            <p>The website not only provides easy-to-understand notes for every subject up to 4th semester, but also
+               includes important assignments and properly formatted project files that are hard to find elsewhere.
+               Priyal sir has also included tips and guidance that make a big difference while preparing. It’s rare to
+               see such dedication to helping juniors, and I’m truly thankful.</p>
+            <div class="student">
+               <img src="images/pic-3.jpg" alt="">
+               <div>
+                  <h3>Ravi Pratap Singh</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
                </div>
             </div>
          </div>
-      </div>
 
-      <div class="box">
-         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Necessitatibus, suscipit a. Quibusdam, dignissimos consectetur. Sed ullam iusto eveniet qui aut quibusdam vero voluptate libero facilis fuga. Eligendi eaque molestiae modi?</p>
-         <div class="student">
-            <img src="images/pic-7.jpg" alt="">
-            <div>
-               <h3>john deo</h3>
-               <div class="stars">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star-half-alt"></i>
+         <div class="box">
+            <p>College Study is more than just a collection of notes—it’s a platform that genuinely supports student
+               growth. Everything from the interface to the content feels well-thought-out. I especially appreciate the
+               clarity and completeness of the material, which helped me during my exams and internal submissions. Hats
+               off to Priyal sir for mentoring so many of us silently through this initiative.</p>
+            <div class="student">
+               <img src="images/pic-6.jpg" alt="">
+               <div>
+                  <h3>Saurabh Mani Tripathi</h3>
+                  <div class="stars">
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star"></i>
+                     <i class="fas fa-star-half-alt"></i>
+                  </div>
                </div>
             </div>
          </div>
+
       </div>
 
-   </div>
-
-</section>
+   </section>
 
 
 
@@ -249,15 +288,16 @@
 
 
 
-<footer class="footer">
+   <footer class="footer">
 
-   &copy; copyright @ 2025 by <span>College Study</span> | all rights reserved!
+      &copy; copyright @ 2025 by <span>College Study</span> | all rights reserved!
 
-</footer>
+   </footer>
 
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
+   <!-- custom js file link  -->
+   <script src="js/script.js"></script>
 
-   
+
 </body>
+
 </html>
